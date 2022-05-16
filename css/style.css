@@ -1193,6 +1193,7 @@ body.lock {
   -webkit-box-flex: 0;
       -ms-flex: 0 0 450px;
           flex: 0 0 450px;
+  padding: 0px 20px 0px 0px;
 }
 .intelligence__img img {
   max-width: 100%;
