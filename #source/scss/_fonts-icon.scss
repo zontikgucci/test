@@ -1,0 +1,49 @@
+@font-face {
+	font-family: 'icomoon';
+	src:  url('../../font/icomoon.eot?ymp4s0');
+	src:  url('../../font/icomoon.eot?ymp4s0#iefix') format('embedded-opentype'),
+	  url('../../font/icomoon.ttf?ymp4s0') format('truetype'),
+	  url('../../font/icomoon.woff?ymp4s0') format('woff'),
+	  url('../../font/icomoon.svg?ymp4s0#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+	font-display: block;
+ }
+ 
+ [class^="icon-"]::before, [class*=" icon-"]::before {
+	/* use !important to prevent issues with browser extensions that change font */
+	font-family: 'icomoon' !important;
+	speak: never;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+ 
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+ }
+ 
+ .icon-experience:before {
+	content: "\e903";
+ }
+ .icon-company:before {
+	content: "\e904";
+ }
+ .icon-group:before {
+	content: "\e905";
+ }
+ .icon-world:before {
+	content: "\e906";
+ }
+ .icon-mail:before {
+	content: "\e900";
+ }
+ .icon-tel:before {
+	content: "\e901";
+ }
+ .icon-whatsapp:before {
+	content: "\e902";
+ }
+ 
